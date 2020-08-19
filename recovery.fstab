@@ -11,7 +11,7 @@
 
 /system_image              emmc    /dev/block/platform/13500000.dwmmc0/by-name/system         flags=backup=1;flashimg=1
 /vendor_image              emmc    /dev/block/platform/13500000.dwmmc0/by-name/vendor          flags=backup=1;flashimg=1
-/data                        ext4      /dev/block/platform/13500000.dwmmc0/by-name/userdata        flags=encryptable=footer;length=-16384
+/data                        ext4      /dev/block/platform/13500000.dwmmc0/by-name/userdata        flags=display="Data";encryptable=footer;length=-20480;fileencryption=ice
 /dtbo                        emmc    /dev/block/platform/13500000.dwmmc0/by-name/dtbo
 /vbmeta                     emmc    /dev/block/platform/13500000.dwmmc0/by-name/vbmeta          flags=display="Vbmeta";flashimg=1;backup=1
 /efs                         emmc    /dev/block/platform/13500000.dwmmc0/bg-name/efs               flags=backup=1;display="EFS"
