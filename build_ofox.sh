@@ -43,7 +43,7 @@ do_build() {
   # compile it
   . build/envsetup.sh
   
-  lunch omni_a20ub-eng
+  lunch omni_a20-eng
   
   mka recoveryimage -j`nproc`
 }
